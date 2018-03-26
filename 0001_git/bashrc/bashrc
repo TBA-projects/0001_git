@@ -1,0 +1,21 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+#PS1='[\u@\h \W]\$ ' #Default
+
+PS1='\e[0;36m[\e[1;35m\u\e[0;37m\e[4;36m@\h/\W::\e[0;36m]$\e[0m '
+alias ll='ls -l'
+alias goprjts='cd /home/boutcher/projects'
+#
+#git alias
+#
+alias ginit='git init'
+alias gstatus='git status'
+alias gadd='git add .'
+alias gcomm='git commit -m'
+alias gpush='git push'

@@ -14,6 +14,7 @@ alias goprjts='cd /home/boutcher/projects'
 #
 #git alias
 #
+#alias google='lynx https://www.google.com'
 alias ginit='git init'
 alias gstatus='git status'
 alias gadd='git add .'

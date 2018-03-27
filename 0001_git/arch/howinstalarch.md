@@ -2,6 +2,7 @@
 ###### [sourse](https://ziggi.org/ustanovka-i-nastroyka-arch-linux-xfce-chast-1/) and adds :+1:
 ## go
 [dowload](https://www.archlinux.org/download/.) cd image, write cd or usb
+
 [create boot cd or usb](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/createbootcdorusb.md)
 ###### img
 ![a1 ](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a1.png)

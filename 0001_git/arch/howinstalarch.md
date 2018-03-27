@@ -37,7 +37,7 @@ ping -c 3 google.com
 Для управления разделами на жестком диске в процессе установки рекомендую использовать программу cfdisk.
 Рекомендую создать следующие разделы:
 
-![a3](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a3.jpg)
+
 
     512 Мб с флагом Загрузочный(Boot) — для загрузчика (для MBR).
     Раздел, на 1 Гб больше, чем объем оперативной памяти — для раздела подкачки(swap), если он вам нужен.
@@ -48,7 +48,7 @@ ping -c 3 google.com
 
 В итоге должно получиться что-то вроде этого:
 
-![a4](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a4.jpg)
+![a3](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a3.jpg)
 
 ## Форматирование разделов
 Для загрузочного раздела будем использовать файловую систему ext2. Также мы будем использовать метки для удобства.
@@ -67,6 +67,8 @@ ping -c 3 google.com
 ```javascript
 # mkfs.ext2 /dev/sda1 -L boot
 ```
+
+![a4](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a4.jpg)
 
 ## Монтирование разделов
 Смонтируем корневой раздел:

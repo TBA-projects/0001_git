@@ -2,6 +2,7 @@
 ###### [sourse](https://ziggi.org/ustanovka-i-nastroyka-arch-linux-xfce-chast-1/) and adds :+1:
 ## go
 [dowload](https://www.archlinux.org/download/.) cd image, write cd or usb
+###### img
 ![GitHub Logo](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a1.png)
 ###### Установим русскую раскладку:
 ```javascript

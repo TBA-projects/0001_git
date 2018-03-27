@@ -1,3 +1,4 @@
+#XYN
 ## install arch
 ###### [sourse](https://ziggi.org/ustanovka-i-nastroyka-arch-linux-xfce-chast-1/) and adds :+1:
 ## go

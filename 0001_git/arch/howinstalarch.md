@@ -3,7 +3,7 @@
 ## go
 [dowload](https://www.archlinux.org/download/.) cd image, write cd or usb
 ###### img
-![GitHub Logo](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a1.png)
+![a1 ](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a1.png)
 ###### Установим русскую раскладку:
 ```javascript
 # loadkeys ru
@@ -31,9 +31,13 @@
 ```javascript
 ping -c 3 google.com
 ```
+
+![a2](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a2.jpg)
 ## Создание разделов на жестком диске
 Для управления разделами на жестком диске в процессе установки рекомендую использовать программу cfdisk.
 Рекомендую создать следующие разделы:
+
+![a3](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a3.jpg)
 
     512 Мб с флагом Загрузочный(Boot) — для загрузчика (для MBR).
     Раздел, на 1 Гб больше, чем объем оперативной памяти — для раздела подкачки(swap), если он вам нужен.
@@ -43,6 +47,8 @@ ping -c 3 google.com
 Жмём кнопку Запись.
 
 В итоге должно получиться что-то вроде этого:
+
+![a4](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a4.jpg)
 
 ## Форматирование разделов
 Для загрузочного раздела будем использовать файловую систему ext2. Также мы будем использовать метки для удобства.

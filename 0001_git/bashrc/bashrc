@@ -10,7 +10,7 @@ alias ls='ls --color=auto'
 
 PS1='\e[0;36m[\e[1;35m\u\e[0;37m\e[4;36m@\h/\W::\e[0;36m]$\e[0m '
 alias ll='ls -l'
-alias goprjts='cd /home/boutcher/projects'
+alias goprojects='cd /home/boutcher/projects'
 #
 #git alias
 #

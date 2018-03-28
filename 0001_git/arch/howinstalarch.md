@@ -1,4 +1,4 @@
-## install arch
+## install arch!
 ###### [sourse](https://ziggi.org/ustanovka-i-nastroyka-arch-linux-xfce-chast-1/) and adds :+1:
 ## go
 [dowload](https://www.archlinux.org/download/.) cd image, write cd or usb

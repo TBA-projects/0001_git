@@ -59,15 +59,15 @@ ping -c 3 google.com
 ```
 Для раздела подкачки (swap):
 ```javascript
-# mkfs.ext2 /dev/sda1 -L boot
+# mkswap /dev/sda2 -L swap
 ```
 Для корневого раздела используем ext4:
 ```javascript
-# mkfs.ext2 /dev/sda1 -L boot
+# mkfs.ext4 /dev/sda3 -L root
 ```
 Для домашнего раздела также используем ext4:
 ```javascript
-# mkfs.ext2 /dev/sda1 -L boot
+# mkfs.ext4 /dev/sda4 -L home
 ```
 
 ![a4](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a4.jpg)

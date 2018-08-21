@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ ' #Default
 
-PS1='\e[0;36m[\e[1;35m\u\e[0;37m\e[4;36m@\h/\W::\e[0;36m]$\e[0m '
+export PS1="\[\e[32m\][\[\e[m\]\d \t\[\e[32m\]]\[\e[m\]\[\e[32m\][\[\e[m\]\h\\$\u \W\[\e[32m\]]\[\e[m\] "
 alias ll='ls -l'
 alias goprojects='cd /home/boutcher/projects'
 #

@@ -52,7 +52,7 @@ ping -c 3 google.com
 
 ![a3](https://github.com/TBA-projects/0001_git/blob/master/0001_git/arch/img/a3.jpg)
 
-## Форматирование разделов
+## !!!Форматирование разделов
 Для загрузочного раздела будем использовать файловую систему ext2. Также мы будем использовать метки для удобства.
 ```javascript
 # mkfs.ext2 /dev/sda1 -L boot

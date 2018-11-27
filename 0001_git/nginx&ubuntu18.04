@@ -1,0 +1,33 @@
+cd /etc/nginx/sites-available/
+
+sudo nano || vim example.conf
+
+server {
+    listen 80;
+    listen [::]:80;
+    root /var/www/html/example/public;
+    index  index.php index.html index.htm;
+    server_name  example.loc;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;        
+    }
+
+  
+    location ~ \.php$ {
+       include snippets/fastcgi-php.conf;
+       fastcgi_pass             unix:/var/run/php/php7.2-fpm.sock;
+       fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
+
+}
+
+sudo ln -s /etc/nginx/sites-available/example.conf /etc/nginx/sites-enabled/
+
+sudo nginx -t
+
+sudo vim /etc/hosts
+
+127.0.0.1       example.loc www.example.loc
+
+sudo systemctl restart nginx
